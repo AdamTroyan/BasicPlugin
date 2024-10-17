@@ -1,0 +1,39 @@
+name: BasicPlugin
+version: '1.0'
+main: dev.adam.basicplugin.BasicPlugin
+api-version: '1.19'
+commands:
+  killself:
+    usage: /<command>
+    description: Kills the player who execute this command.
+    aliases:
+    - kms
+
+  heal:
+    usage: /<command>
+    description: Heals the player who execute this command.
+    aliases:
+      - maxhealth
+      - health
+
+  feed:
+    usage: /<command>
+    description: Feeds the player who execute this command.
+    aliases:
+      - feedme
+      - food
+
+  rtp:
+    usage: /<command> (dist)
+    description: Teleport the player to random place.
+    aliases:
+      - randomteleport
+      - randomtp
+
+  broadcast:
+    usage: /<command> <message>
+    description: Broadcast message for all the players.
+    aliases:
+      - br
+      - messageall
+      - mall
