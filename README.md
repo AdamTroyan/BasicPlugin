@@ -7,6 +7,7 @@ This simple yet effective plugin introduces a few essential commands to enhance 
 - **/heal**: Fully restores the player’s health.
 - **/feed**: Replenishes the player’s hunger bar.
 - **/broadcast (message)**: Sends a custom message to every player on the server.
+- **/rtp (near/mid/far)**: Randomly teleport the player to desiered destinition.
 
 This code serves as a solid foundation for building more complex plugins. You can easily expand it by adding permissions, new features, and customizations to suit your server's needs.
 
